@@ -24,8 +24,8 @@ This is a Python implementation of the optical flow computation method derived b
 Before running the program, make sure you have Python (>= 3.6) installed on your system. Clone this repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/chanukaravishan/Optical-flow-Horn-Schunk.git
-cd Optical-flow-Horn-Schunk
+git clone https://github.com/chanukaravishan/Optical-flow-plus.git
+cd Optical-flow-plus
 pip install -r requirements.txt
 ```
 
@@ -47,11 +47,6 @@ python of_hornschunk.py --input_path /path/to/your/image_sequences --output_path
 ## Contributing
 
 Contributions to this project are welcome! Feel free to open issues and submit pull requests to address bugs, add new features, or improve the existing implementation.
-
-
-## Credits
-
-This optical flow computation program was developed by Chanuka Algama (https://github.com/ChanukaRavishan).
 
 ## Acknowledgments
 
