@@ -1,9 +1,9 @@
-# Enhancing Optical Flow for a smoother identification of global motion
+# Robust Optical Flow Computation: A Higher-Order Differential Approach
 
 
 ## Overview
 
-This is a Python implementation of the optical flow computation method derived by the second-order Taylor series approximation. Given an image sequence as input, this program calculates flow vectors (u, v) that represent pixel motion between consecutive frames.
+This is a Python implementation of the optical flow computation derived using the second-order Taylor series approximation. Given an image sequence as input, this program calculates flow vectors (u, v) representing pixel motion between consecutive frames.
 
 ## Example usage: Test image and corresponding result image
 
@@ -21,7 +21,7 @@ This is a Python implementation of the optical flow computation method derived b
 
 ## Installation
 
-Before running the program, make sure you have Python (>= 3.6) installed on your system. Clone this repository and install the required dependencies:
+Before running the program, ensure you have Python (>= 3.6) installed on your system. Clone this repository and install the required dependencies:
 
 ```bash
 git clone https://github.com/chanukaravishan/Optical-flow-plus.git
@@ -35,13 +35,10 @@ To compute optical flow for your image sequences, follow these steps:
 
 1. Prepare your image sequences: Make sure you have consecutive image frames in a directory.
 
-2. Open the `of_hornschunk.py` script and set the `alpha` parameter according to your requirements. The higher the value of `alpha`, the smoother the output flow vectors will be.
+2. Open the `OF++.py` script and set the `alpha` parameter according to your requirements. The higher the value of `alpha`, the smoother the output flow vectors will be.
 
 3. Run the script by providing the path to your image sequence directory:
 
-```bash
-python of_hornschunk.py --input_path /path/to/your/image_sequences --output_path /path/to/save/flow_results
-```
 
 
 ## Contributing
